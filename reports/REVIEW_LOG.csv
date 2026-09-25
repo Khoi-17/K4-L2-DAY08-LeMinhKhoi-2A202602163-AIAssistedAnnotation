@@ -1,0 +1,8 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe tối ở mép trái chỉ thấy nửa thân xe và đèn pha,added,AI bỏ sót - thấy đèn xe và nửa thân xe đủ ranh giới theo GUIDELINE_LABEL mục xe bị cắt ở mép ảnh
+1,frame_0107.jpg,xe tải chạy làn giữa có box AI vẽ ôm khít thân xe,accepted,Giữ nguyên box do AI nhận diện chính xác và ôm sát toàn bộ thân xe theo GUIDELINE_LABEL mục nhìn rõ thân xe
+1,frame_0187.jpg,xe ở mép dưới ảnh bị cắt chỉ thấy phần mui xe,added,AI bỏ sót - vẽ box cho phần nằm trong ảnh theo GUIDELINE_LABEL mục xe bị cắt ở mép ảnh
+1,frame_0227.jpg,xe phía sau xe tải có box bị vẽ quá to trùm đè lên nóc xe tải,edited,Thu nhỏ và chỉnh lại bounding box về đúng viền xe phía sau theo GUIDELINE_LABEL mục hai xe đứng sát nhau vẽ hai box riêng
+1,frame_0270.jpg,xe chạy phía sau xe tải bị xe tải che khuất một phần thân,added,AI bỏ sót - vẽ box cho phần nhìn thấy theo GUIDELINE_LABEL mục xe bị che một phần
+1,frame_0312.jpg,xe ở làn trái có box ban đầu của AI bị lệch khỏi thân xe,edited,Chỉnh kéo bounding box về đúng vị trí ôm sát thân xe do box ban đầu của AI bị lệch
+1,frame_0331.jpg,vệt sáng phản chiếu trên mặt đường bị AI nhận diện nhầm,deleted,Xóa box do AI gán nhầm vệt sáng không phải xe theo GUIDELINE_LABEL mục ánh đèn phản chiếu trên mặt đường không gán nhãn
